@@ -9,7 +9,6 @@
     $line = trim(fgets($inf));
     if(substr($line,0,1)=="#") { $line = trim(fgets($inf)); }
 
-//    $line = trim(fgets($inf));
     sscanf($line,"%d %d",$width,$height);
 
     $line = trim(fgets($inf));

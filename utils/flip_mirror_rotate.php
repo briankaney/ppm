@@ -10,9 +10,9 @@
   if($argc==1)
   {
     print "\n\nUsage:\n";
-    print "  read_ppm.php infile insert outfile\n\n";
+    print "  flip_mirror_rotate_ppm.php infile option outfile\n\n";
     print "Examples:\n";
-    print "  ./read_ppm.php grey-gradient.ppm mirror.ppm final.ppm\n\n";
+    print "  ./flip_mirror_rotate_ppm.php grey-gradient.ppm final.ppm\n\n";
     print "  \n";
     print "  \n\n";
 
